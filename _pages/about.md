@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: [www.linkedin.com/in/leilaghazvini](www.linkedin.com/in/leilaghazvini)
+
 
 profile:
   align: right
