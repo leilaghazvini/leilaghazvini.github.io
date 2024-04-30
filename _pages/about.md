@@ -4,7 +4,6 @@ title: about
 permalink: /
 subtitle: [www.linkedin.com/in/leilaghazvini](www.linkedin.com/in/leilaghazvini)
 
-
 profile:
   align: right
   image: WEBSITE_picy.png
