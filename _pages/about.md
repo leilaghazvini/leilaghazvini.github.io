@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [www.linkedin.com/in/leilaghazvini](www.linkedin.com/in/leilaghazvini)
+subtitle: <a href='www.linkedin.com/in/leilaghazvini'>LinkedIn: leilaghazvini</a>
 
 profile:
   align: right
