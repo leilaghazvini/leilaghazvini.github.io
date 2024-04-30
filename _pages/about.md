@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: / 
 subtitle: <a href='www.linkedin.com/in/leilaghazvini'>LinkedIn: leilaghazvini</a>
 
 profile:
