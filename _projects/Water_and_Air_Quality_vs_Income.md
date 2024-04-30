@@ -1,3 +1,13 @@
+---
+layout: page
+title: project 1
+description: with background image
+img: assets/img/12.jpg
+importance: 1
+category: work
+related_publications: true
+---
+
 ## **Comparing Air and Water Quality with Average Income in Los Angeles County**
 ### Abstract
 
