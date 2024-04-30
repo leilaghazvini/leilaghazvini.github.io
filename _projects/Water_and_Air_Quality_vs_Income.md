@@ -20,10 +20,10 @@ This study aims to examine the relationship between air and water quality in var
 
 <table width="100%">
   <tr>
-      <td><img width="400" alt="Figure 1 Air quality represented in PM2.5" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/42d99181-3c17-4b20-b804-41819bf436b6">
-  <img width="80" alt="Figure 1 Air quality represented in PM2.5" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/ffd4dbb7-5306-4b7a-b246-c0ebf035b18e"></td>
-  <td><img width="400" alt="Figure 2 Drinking Water quality ranked from a scale of 1-3" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/b1a35617-261a-4338-8a68-958dff13b980">
-  <img width="80" alt="Figure 2 Drinking Water quality ranked from a scale of 1-3" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/760b49f5-266e-4020-9a00-30cae4db74e5"></td>
+      <td><img width="500" alt="Figure 1 Air quality represented in PM2.5" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/42d99181-3c17-4b20-b804-41819bf436b6">
+  <img width="90" alt="Figure 1 Air quality represented in PM2.5" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/ffd4dbb7-5306-4b7a-b246-c0ebf035b18e"></td>
+  <td><img width="500" alt="Figure 2 Drinking Water quality ranked from a scale of 1-3" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/b1a35617-261a-4338-8a68-958dff13b980">
+  <img width="90" alt="Figure 2 Drinking Water quality ranked from a scale of 1-3" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/760b49f5-266e-4020-9a00-30cae4db74e5"></td>
   </tr>
   <tr>
     <td align="left">Figure 1 Air quality represented in PM2.5
@@ -37,12 +37,12 @@ This study aims to examine the relationship between air and water quality in var
 <table width="100%">
   <tr>
     <td>
-      <img width="400" alt="Figure 3 Drink water quality ranked 1-3 and Los Angeles River" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/6927ee0a-7b36-424c-8320-80e1aba33ade">
-      <img width="150" alt="Figure 3 Drink water quality ranked 1-3 and Los Angeles River" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/353ef22e-ed22-4520-9c13-b7e115f44103">
+      <img width="500" alt="Figure 3 Drink water quality ranked 1-3 and Los Angeles River" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/6927ee0a-7b36-424c-8320-80e1aba33ade">
+      <img width="115" alt="Figure 3 Drink water quality ranked 1-3 and Los Angeles River" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/353ef22e-ed22-4520-9c13-b7e115f44103">
       <img width="80" alt="Figure 3 Drink water quality ranked 1-3 and Los Angeles River" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/4158396a-dc10-43fb-916a-96d826843c98">
     </td>
-    <td> 
-      <img width="400" alt="Figure 4 Median income per city split into 3 categories" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/9a6b471c-2cf6-4201-9980-560562670e81">
+     <td valign="top">
+      <img width="550" alt="Figure 4 Median income per city split into 3 categories" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/9a6b471c-2cf6-4201-9980-560562670e81">
       <img width="150" alt="Figure 4 Median income per city split into 3 categories" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/2a5869dc-3d2a-448a-ba70-35af24b04011">
     </td>
   </tr>
@@ -50,9 +50,10 @@ This study aims to examine the relationship between air and water quality in var
     <td align="left">Figure 3 Drink water quality ranked 1-3 and Los Angeles River</td>
     <td align="left">Figure 4 Median income per city split into 3 categories</td>
   </tr>
-</table>
+</table><img width="600" alt="image" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/69b0a979-afd8-4315-a5a1-a92c3ea898cc">
 
-<img width="600" alt="image" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/69b0a979-afd8-4315-a5a1-a92c3ea898cc">
+Table 1 Air and water quality population percentage by ranking
+
 
 ---
 
