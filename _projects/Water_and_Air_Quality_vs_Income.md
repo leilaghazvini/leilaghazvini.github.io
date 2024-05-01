@@ -8,7 +8,6 @@ category: work
 related_publications: true
 ---
 
-## **[Comparing Air and Water Quality with Average Income in Los Angeles County](https://github.com/leilaghazvini/leilaghazvini.github.io/blob/master/assets/pdf/Project%20envs%20196%20.pdf)**
 [*Click here to access full project*
 ](https://github.com/leilaghazvini/leilaghazvini.github.io/blob/master/assets/pdf/Project%20envs%20196%20.pdf)
 ### Abstract
