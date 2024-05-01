@@ -52,7 +52,7 @@ This study aims to examine the relationship between air and water quality in var
     <td align="left">Figure 3 Drink water quality ranked 1-3 and Los Angeles River</td>
     <td align="left">Figure 4 Median income per city split into 3 categories</td>
   </tr>
-</table><img width="600" alt="image" src="https://github.com/leilaghazvini/leilaghazvini.github.io/assets/168471501/69b0a979-afd8-4315-a5a1-a92c3ea898cc">
+</table><img width="600" alt="image" src="/assets/img/table.png">
 
 Table 1 Air and water quality population percentage by ranking
 
