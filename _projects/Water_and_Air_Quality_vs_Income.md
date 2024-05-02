@@ -4,7 +4,7 @@ title: Comparing Air and Water Quality with Average Income in Los Angeles County
 description: Final Research Project for Advanced GIS 
 img: assets/img/12.jpg
 importance: 1
-category: Research Project 
+category: work
 related_publications: true
 ---
 
