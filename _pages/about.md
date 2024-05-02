@@ -4,6 +4,9 @@ title: about
 permalink: /
 
 profile:
+  align: right
+  image_circular: false # crops the image to make it circular
+  more_info: >
    - align: right
     image: WEBSITE_picy.jpg
     content: about.md
