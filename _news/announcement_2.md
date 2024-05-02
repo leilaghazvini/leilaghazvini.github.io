@@ -8,4 +8,3 @@ related_posts: True
 
 I am happy to share that I am starting a new position as a tutor at Study Hut tutoring in Palos Verdes!
 
----
