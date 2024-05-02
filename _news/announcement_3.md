@@ -7,4 +7,3 @@ related_posts: true
 
 I am excited to announce that I just completed my Bachelors of arts in Environmental Studies with a concentration in Geographic Inforomation Systems on a three year track with a Cum Laude distinction! I am grateful for my peers, mentors and professors who have supported me in my academic journey. 
 
----
