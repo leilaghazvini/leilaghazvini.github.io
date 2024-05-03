@@ -7,8 +7,10 @@ profile:
   align: right
   image_circular: false # crops the image to make it circular
   more_info: >
-   <img width="500" alt="Website Picture" src="/assets/img/WEBSITE_picy.png">
-
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/WEBSITE_picy.png" title="Website Picture" class="img-fluid rounded z-depth-1" %}
+   </div>
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
