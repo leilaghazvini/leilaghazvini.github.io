@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: >
   <img width="500" alt="Website Picture" src="/assets/img/WEBSITE_picy.png">
   
 news: true # includes a list of news items
