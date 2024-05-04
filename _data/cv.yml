@@ -5,7 +5,6 @@
       value: Leila Ghazvini
     - name: Languages
       value: English, Farsi, Spanish
-
 - title: Education
   type: time_table
   contents:
@@ -25,7 +24,6 @@
           contents:
             - Vice President of Planned Parenthood Generation Action.
             - Social Media Coordinator of Iranian Student Union.
-
 - title: Experience
   type: time_table
   contents:
@@ -46,7 +44,6 @@
         - Performed data entry with Google Sheets and organized student files.
         - Connected students with internships that fit their interests and assisted them with the enrollment process.
         - Completed organizational work including filing and printing etc. which increased office efficiency.
-
     - title: Interm
       institution: UCSC Cowell Coffee Shop Co-op
       year: 2023
@@ -54,7 +51,6 @@
         - Prepared fresh organic food for hundreds of students combating food insecurity on campus.
         - Learned how to cook a variety of dishes from various cultures and taught others how to cook.
         - Maintained a positive attitude in a team-centered environment.
-
     - title: DRC NoteTaker
       institution: UCSC Disability Resource Center
       year: 2023
@@ -62,7 +58,6 @@
         - Assisted disadvantaged students with disability accommodations, helping bridge the gap in education.
         - Watched and summarized lectures to assist students with their learning in each course.
         - Compiled and organized notes for each course from the entire quarter into an easy to comprehend format.
-        
     - title: Administrative Clerk
       institution: Vitae Diagnostics
       year: 2021
@@ -72,14 +67,12 @@
         - Assisted customers at the front desk with medical test administrative work.
         - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care.
         - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach. 
-
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -91,7 +84,6 @@
       items:
         - Dean’s Merit Scholarship
         - James Irvine California Scholarship
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -103,7 +95,6 @@
       items:
         - Description 1.
         - Description 2.
-
 - title: Other Interests
   type: list
   contents:
