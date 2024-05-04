@@ -36,7 +36,7 @@
         - Successfully tutor 50+ students in a variety of subjects including Algebra, Geometry, Biology, and Chemistry, English, History.
         - Provided individualized and engaged instruction for all students.
         - Facilitated clear communication with parents of students. 
-    - title: Visiting Professor
+    - title: Office Assistant
       institution: UCSC Environmental Studies Internship Office 
       year: 2022-2023
       description:
@@ -47,18 +47,31 @@
         - Connected students with internships that fit their interests and assisted them with the enrollment process.
         - Completed organizational work including filing and printing etc. which increased office efficiency.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Interm
+      institution: UCSC Cowell Coffee Shop Co-op
+      year: 2023
       description:
+        - Prepared fresh organic food for hundreds of students combating food insecurity on campus.
+        - Learned how to cook a variety of dishes from various cultures and taught others how to cook.
+        - Maintained a positive attitude in a team-centered environment.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: DRC NoteTaker
+      institution: UCSC Disability Resource Center
+      year: 2023
+      description:
+        - Assisted disadvantaged students with disability accommodations, helping bridge the gap in education.
+        - Watched and summarized lectures to assist students with their learning in each course.
+        - Compiled and organized notes for each course from the entire quarter into an easy to comprehend format.
+        
+    - title: Administrative Clerk
+      institution: Vitae Diagnostics
+      year: 2021
+      description:
+        - Performed data entry with Microsoft Excel, Google Sheets, and Labdaq.
+        - Completed administrative work including filing, printing, etc. in order to organize patient files.
+        - Assisted customers at the front desk with medical test administrative work.
+        - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care.
+        - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach. 
 
 - title: Open Source Projects
   type: time_table
