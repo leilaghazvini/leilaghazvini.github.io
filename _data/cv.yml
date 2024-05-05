@@ -74,10 +74,10 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://leilaghazvini.github.io/projects/Water_and_Air_Quality_vs_Income/">al-folio</a>
+    - title: [Comparing Air and Water Quality with Average Income in Los Angeles County](https://leilaghazvini.github.io/projects/Water_and_Air_Quality_vs_Income/)
       year: 2023
       description: GIS Final Research Project comparing water and air quality with average income in Los Angeles County.
-    - title: <a href="https://leilaghazvini.github.io/projects/CCS_Turning_Food_Insecurity%20into_Food_Independence/">al-folio</a>
+    - title: [Cowell Coffee Shop: Turning Food Insecurity Into Food Independence](https://leilaghazvini.github.io/projects/CCS_Turning_Food_Insecurity%20into_Food_Independence/)
       year: 2023
       description: Research Project Presented at UCSC Environmental Studies Department Research Symposium highlighting the impact the Cowell Coffee shop Co-op has on the UCSC campus and how it combats food insecurity amongst college students.
 - title: Honors and Awards
@@ -97,7 +97,7 @@
     - title: Software
       items:
         - ArcGIS
-        - Microsoft ( Excel, Powerpoint, Access)
+        - Microsoft (Excel, Powerpoint, Access)
         - Google Sheets and Slides
         - WCMS
         - JMP
