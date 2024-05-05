@@ -9,8 +9,6 @@
       value: leilaghazvini142@gmail.com
     - name: linkdin 
       value: [linkdin profile](www.linkedin.com/in/leilaghazvini)
-    - name: Languages
-      value: English, Farsi, Spanish
 - title: Education
   type: time_table
   contents:
@@ -93,17 +91,21 @@
       items:
         - Dean’s Merit Scholarship
         - James Irvine California Scholarship
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Environmental Policy.
+    - title: Software
       items:
-        - Description 1.
-        - Description 2.
-    - title: Geographic Information Systems.
+        - ArcGIS
+        - Microsoft ( Excel, Powerpoint, Access)
+        - Google Sheets and Slides
+        - WCMS
+        - JMP
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
+        - English (Native)
+        - Farsi (conversational)
+        - Farsi (conversational)
 - title: Other Interests
   type: list
   contents:
