@@ -73,12 +73,15 @@
         - Assisted customers at the front desk with medical test administrative work.
         - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care.
         - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach. 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://leilaghazvini.github.io/projects/Water_and_Air_Quality_vs_Income/">al-folio</a>
+      year: 2023
+      description: GIS Final Research Project comparing water and air quality with average income in Los Angeles County.
+    - title: <a href="https://leilaghazvini.github.io/projects/CCS_Turning_Food_Insecurity%20into_Food_Independence/">al-folio</a>
+      year: 2023
+      description: Research Project Presented at UCSC Environmental Studies Department Research Symposium highlighting the impact the Cowell Coffee shop Co-op has on the UCSC campus and how it combats food insecurity amongst college students.
 - title: Honors and Awards
   type: time_table
   contents:
