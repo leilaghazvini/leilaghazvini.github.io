@@ -1,0 +1,73 @@
+General Information:
+  Full Name: Leila Ghazvini
+  Location: Redondo Beach, CA
+  Email: leilaghazvini142@gmail.com
+
+Education:
+  - title: Masters of Urban Planning
+    institution: University of Southern California
+    year: 2026
+    description:
+      - concentration in Planning for Climate Change and Sustainability
+      - Dean’s Merit Scholarship, James Irvine California Scholarship
+  - title: Bachelors of Arts
+    institution: University of California, Santa Cruz
+    year: 2023
+    description:
+      - Environmental Studies with a concentration in Geographic Information Systems
+      - Dean’s Honors List, Cum Laude distinction (3.9 GPA)
+    leadership:
+      - Vice President of Planned Parenthood Generation Action
+      - Social Media Coordinator of Iranian Student Union
+
+Experience:
+  - title: Tutor
+    institution: Study Hut
+    year: 2023-2024
+    description:
+      - Successfully tutored 50+ students in a variety of subjects including Algebra, Geometry, Biology, and Chemistry, English, History
+      - Provided individualized and engaged instruction for all students
+      - Facilitated clear communication with parents of students
+  - title: Office Assistant
+    institution: UCSC Environmental Studies Internship Office
+    year: 2022-2023
+    description:
+      - Assisted with website development and design, streamlining the internship application process
+      - Executed administrative work for the internship course, helping the program run smoothly
+      - Communicated with 30+ staff members and 100+ students, refining the internship administrative process
+      - Performed data entry with Google Sheets and organized student files
+      - Connected students with internships that fit their interests and assisted them with the enrollment process
+      - Completed organizational work including filing and printing, increasing office efficiency
+  # Include other experience items similarly
+
+Projects:
+  - title: Comparing Air and Water Quality with Average Income in Los Angeles County
+    year: 2023
+    description: GIS Final Research Project comparing water and air quality with average income in Los Angeles County
+  - title: Cowell Coffee Shop: Turning Food Insecurity Into Food Independence
+    year: 2023
+    description: Research Project Presented at UCSC Environmental Studies Department Research Symposium highlighting the impact the Cowell Coffee shop Co-op has on the UCSC campus and how it combats food insecurity among college students
+
+Honors and Awards:
+  - year: 2023
+    items:
+      - Dean’s Honors List
+      - Cum Laude Distinction
+  - year: 2024
+    items:
+      - Dean’s Merit Scholarship
+      - James Irvine California Scholarship
+
+Skills:
+  Software:
+    - ArcGIS
+    - Microsoft (Excel, Powerpoint, Access)
+    - Google Sheets and Slides
+    - WCMS
+    - JMP
+  Languages:
+    - English (Native)
+    - Farsi (conversational)
+
+Other Interests:
+  Hobbies: Running, Going to the beach, Hiking
