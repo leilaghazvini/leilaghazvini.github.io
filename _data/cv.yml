@@ -115,4 +115,7 @@
 - title: Other Interests
   type: list
   contents:
-    - Hobbies: Running, Going to the beach, Hiking
+    - Hobbies: 
+      - Running
+      - Going to the beach
+      - Hiking
