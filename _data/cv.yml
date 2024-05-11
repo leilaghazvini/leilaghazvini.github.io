@@ -113,9 +113,10 @@
         - Farsi (conversational)
 
 - title: Other Interests
-  type: list
-  contents:
-    - Hobbies: 
+  type: time_table
+  contents: 
+    - title: 
+      items:
       - Running
       - Going to the beach
       - Hiking
