@@ -115,7 +115,7 @@
 - title: Other Interests
   type: nested_list
   contents: 
-    - title: Ongoing
+    - title: 
       items:
         - Running
         - Going to the beach
