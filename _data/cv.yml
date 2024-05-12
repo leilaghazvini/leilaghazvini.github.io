@@ -113,10 +113,10 @@
         - Farsi (conversational)
 
 - title: Other Interests
-  type: time_table
+  type: nested_list
   contents: 
-    - title: 
+    - title: Ongoing
       items:
-      - Running
-      - Going to the beach
-      - Hiking
+        - Running
+        - Going to the beach
+        - Hiking
