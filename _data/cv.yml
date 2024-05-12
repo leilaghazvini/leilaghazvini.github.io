@@ -113,12 +113,9 @@
         - Farsi (conversational)
 
 - title: Other Interests
-  type: nested_list
-  contents: 
-    - title: Interests
-      items:
-        - Running
-        - Going to the beach
-        - Hiking
-
+  type: list
+  items:
+    - Running
+    - Going to the beach
+    - Hiking
 
