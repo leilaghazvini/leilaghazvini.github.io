@@ -38,8 +38,20 @@ Experience:
       - Performed data entry with Google Sheets and organized student files
       - Connected students with internships that fit their interests, assisting them with the enrollment process
       - Completed organizational work including filing and printing etc. increasing office efficiency
-  # Include other experience items similarly
-
+   - title: Intern
+     institution: UCSC Cowell Coffee Shop Co-op
+     year: 2023
+     description:
+      - Prepared organic meals made from locally sourced ingredients for hundreds of students combating food insecurity on campus 
+      - Used kitchen skills to learn and teach others how to make culturally relevant food to promote food independence
+      - Maintained a positive attitude in a team-centered environment increasing productivity
+  - title: DRC Notetaker
+    institution: UCSC Disability Resource Center
+    year: 2023
+    description: 
+      - Assisted disadvantaged students with disability accommodations, helping bridge the gap in education
+      - Watched and summarized lectures to assist students with their learning in each course 
+      - Organize and condense notes for each course into an easy to comprehend format enhancing efficiency 
 Projects:
   - title: Comparing Air and Water Quality with Average Income in Los Angeles County
     year: 2023
