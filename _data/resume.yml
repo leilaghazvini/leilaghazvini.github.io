@@ -38,10 +38,10 @@ Experience:
       - Performed data entry with Google Sheets and organized student files
       - Connected students with internships that fit their interests, assisting them with the enrollment process
       - Completed organizational work including filing and printing etc. increasing office efficiency
-   - title: Intern
-     institution: UCSC Cowell Coffee Shop Co-op
-     year: 2023
-     description:
+  - title: Intern
+    institution: UCSC Cowell Coffee Shop Co-op
+    year: 2023
+    description:
       - Prepared organic meals made from locally sourced ingredients for hundreds of students combating food insecurity on campus 
       - Used kitchen skills to learn and teach others how to make culturally relevant food to promote food independence
       - Maintained a positive attitude in a team-centered environment increasing productivity
@@ -60,7 +60,8 @@ Experience:
       - Completed administrative work including filing, printing, etc. in order to organize patient files
       - Assisted customers at the front desk with medical test administrative work providing support to medical professionals
       - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care
-      - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach 
+      - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach
+
 Projects:
   - title: Comparing Air and Water Quality with Average Income in Los Angeles County
     year: 2023
