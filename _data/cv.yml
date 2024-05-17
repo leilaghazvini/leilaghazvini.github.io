@@ -33,18 +33,18 @@
   contents:
     - title: Tutor
       institution: Study Hut
-      year: 2023-2024
+      year: "2023-2024"
       description:
-        - Successfully tutored 50+ students in a variety of subjects including Algebra, Geometry, Biology, and Chemistry, English, History improving the understanding of student’s overall knowledge of the subject
+        - Successfully tutored "50+" students in a variety of subjects including Algebra, Geometry, Biology, and Chemistry, English, History improving the understanding of student’s overall knowledge of the subject
         - Provided individualized and engaged instruction for all students
         - Facilitated clear communication with parents of students resulting in enhanced parental involvement 
     - title: Office Assistant
       institution: UCSC Environmental Studies Internship Office 
-      year: 2022-2023
+      year: "2022-2023"
       description:
         - Assisted with website development and design, streamlining the internship application process
         - Executed administrative work for the internship course, helping the program run smoothly
-        - Communicated with 30+ staff members and 100+ students, refining the internship administrative process
+        - Communicated with "30+" staff members and "100+" students, refining the internship administrative process
         - Performed data entry with Google Sheets and organized student files
         - Connected students with internships that fit their interests, assisting them with the enrollment process
         - Completed organizational work including filing and printing etc. increasing office efficiency     
@@ -69,8 +69,8 @@
         - Performed patient data entry with Microsoft Excel, Google Sheets, and Labdaq optimizing patient medical and billing records
         - Completed administrative work including filing, printing, etc. in order to organize patient files
         - Assisted customers at the front desk with medical test administrative work providing support to medical professionals
-        - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care
-        - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach 
+        - Distributed test results to patients and input patient information for "300+" patients which assisted in facilitating their medical care
+        - Worked with a team of "10+" doctors and nurses to help improve coordination between lab and patient outreach 
         
 - title: Projects
   type: time_table
