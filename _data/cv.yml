@@ -7,6 +7,7 @@
       value: Redondo Beach, CA
     - name: Email
       value: leilaghazvini142@gmail.com
+      
 - title: Education
   type: time_table
   contents:
@@ -26,6 +27,7 @@
           contents:
             - Vice President of Planned Parenthood Generation Action
             - Social Media Coordinator of Iranian Student Union
+            
 - title: Experience
   type: time_table
   contents:
@@ -69,6 +71,7 @@
         - Assisted customers at the front desk with medical test administrative work providing support to medical professionals
         - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care
         - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach 
+        
 - title: Projects
   type: time_table
   contents:
@@ -89,6 +92,7 @@
       items:
         - Dean’s Merit Scholarship
         - James Irvine California Scholarship
+        
 - title: Skills
   type: nested_list
   contents:
@@ -103,10 +107,10 @@
       items:
         - English (Native)
         - Farsi (conversational)
+        
 - title: Other Interests
   type: list
   items:
     - Running
     - Going to the beach
     - Hiking
-
