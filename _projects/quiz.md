@@ -18,7 +18,7 @@ related_publications: true
 <body>
     <div id="quiz-container">
         <div id="question-container">
-            <div id="question">Question text</div>
+            <div id="question">SQUIRT</div>
             <div id="answer-buttons" class="btn-container">
                 <!-- Buttons will be generated here by JavaScript -->
             </div>
@@ -26,7 +26,7 @@ related_publications: true
         <button id="next-btn" class="btn hide">Next</button>
     </div>
     <div id="result-container" class="hide">
-        <div id="result">Your result is...</div>
+        <div id="result">Your result is...SQUIRT</div>
         <button id="restart-btn" class="btn">Restart</button>
     </div>
     <script src="script.js"></script>
