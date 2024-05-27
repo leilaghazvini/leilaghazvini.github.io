@@ -26,7 +26,7 @@ related_publications: true
         <button id="next-btn" class="btn hide">Next</button>
     </div>
     <div id="result-container" class="hide">
-        <div id="result">Your result is...SQUIRT</div>
+        <div id="result">Your result is...</div>
         <button id="restart-btn" class="btn">Restart</button>
     </div>
     <script src="script.js"></script>
