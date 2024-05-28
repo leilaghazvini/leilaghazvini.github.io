@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quiz
+title: New project...in the works
 description: New Project 
 img: assets/img/fig_2.png
 importance: 3
