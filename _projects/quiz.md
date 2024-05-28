@@ -2,7 +2,7 @@
 layout: page
 title: New project...in the works
 description: New Project 
-img: assets/img/fig_2.png
+img: assets/img/4.png
 importance: 3
 category: fun
 related_publications: false
