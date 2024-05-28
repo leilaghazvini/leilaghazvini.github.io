@@ -98,11 +98,18 @@
   contents:
     - title: Software
       items:
+    - title: Spatial Analysis
+      items: 
         - ArcGIS
+    - title: Data Entry
+      items:  
         - Microsoft (Excel, Powerpoint, Access)
         - Google Sheets and Slides
+    - title: Website design and development
+      items:  
+        - Github
         - WCMS
-        - JMP
+        - Python
     - title: Languages
       items:
         - English (Native)
