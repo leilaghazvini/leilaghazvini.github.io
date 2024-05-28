@@ -5,7 +5,7 @@ description: New Project
 img: assets/img/fig_2.png
 importance: 3
 category: fun
-related_publications: true
+related_publications: false
 ---
 <!DOCTYPE html>
 <html lang="en">
