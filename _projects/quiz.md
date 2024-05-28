@@ -18,7 +18,7 @@ related_publications: false
 <body>
     <div id="quiz-container">
         <div id="question-container">
-            <div id="question">SQUIRT</div>
+            <div id="question">KEY</div>
             <div id="answer-buttons" class="btn-container">
                 <!-- Buttons will be generated here by JavaScript -->
             </div>
