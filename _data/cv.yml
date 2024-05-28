@@ -96,16 +96,14 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Software
-      items:
     - title: Spatial Analysis
       items: 
-        - ArcGIS
+        - ArcGIS  
     - title: Data Entry
       items:  
         - Microsoft (Excel, Powerpoint, Access)
         - Google Sheets and Slides
-    - title: Website design and development
+    - title: Website Design and Development
       items:  
         - Github
         - WCMS
