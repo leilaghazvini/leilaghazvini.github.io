@@ -5,12 +5,12 @@ title: blog
 nav: false
 nav_order: 97
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
-  sort_reverse: true
+  sort_reverse: false
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
