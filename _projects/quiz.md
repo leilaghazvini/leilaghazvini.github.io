@@ -7,7 +7,6 @@ importance: 3
 category: fun
 related_publications: false
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,7 +24,7 @@ related_publications: false
         }
 
         #quiz-container, #result-container {
-            width: 300px;
+            width: 500px;
             padding: 20px;
             background-color: white;
             border-radius: 8px;
