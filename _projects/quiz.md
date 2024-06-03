@@ -94,10 +94,10 @@ related_publications: false
                 ]
             },
             {
-                question: "Do you like the smell of gasoline? ",
+                question: "Do you like the smell of gasoline?",
                 answers: [
-                    { text: "no", category: "A" "B" },
-                    { text: "yes", category: "C" },
+                    { text: "No", category: "A" },
+                    { text: "Yes", category: "C" }
                 ]
             },
             {
@@ -106,10 +106,10 @@ related_publications: false
                     { text: "$800 (I’m not real)", category: "A" },
                     { text: "$1000", category: "C" },
                     { text: "$1,500", category: "B" },
-                    { text: "$3,000(ok, money bags)", category: "A" }
+                    { text: "$3,000 (ok, money bags)", category: "A" }
                 ]
             },
-              {
+            {
                 question: "Fav sex and the city character?",
                 answers: [
                     { text: "Carrie", category: "A" },
@@ -122,7 +122,7 @@ related_publications: false
                 question: "Did you drive a car in your college town?",
                 answers: [
                     { text: "Yes", category: "C" },
-                    { text: "no", category: "A" "B" },
+                    { text: "No", category: "A" }
                 ]
             },
             {
@@ -135,7 +135,7 @@ related_publications: false
                 ]
             },
             {
-                question: "How many housemates did you have in college (not including yourself)? ",
+                question: "How many housemates did you have in college (not including yourself)?",
                 answers: [
                     { text: "1-2", category: "C" },
                     { text: "3-5", category: "A" },
@@ -143,7 +143,7 @@ related_publications: false
                     { text: "8+", category: "C" }
                 ]
             },
-             {
+            {
                 question: "Fav vehicle?",
                 answers: [
                     { text: "Car", category: "C" },
@@ -152,15 +152,17 @@ related_publications: false
                     { text: "Plane", category: "C" }
                 ]
             },
-             {
+            {
                 question: "Go-to pair of shoes?",
                 answers: [
                     { text: "Sneakers", category: "A" },
-                    { text: "Running shoe ", category: "B" },
+                    { text: "Running shoe", category: "B" },
                     { text: "Boot", category: "C" },
                     { text: "Sandals", category: "B" }
                 ]
-            },
+            }
+        ];
+
         const questionContainer = document.getElementById('question-container');
         const questionElement = document.getElementById('question');
         const answerButtonsElement = document.getElementById('answer-buttons');
