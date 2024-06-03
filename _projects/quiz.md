@@ -18,7 +18,7 @@ related_publications: false
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50vh;
+            height: 100vh;
             margin: 0;
             background-color: #f4f4f4;
         }
