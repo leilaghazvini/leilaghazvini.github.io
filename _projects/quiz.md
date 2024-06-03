@@ -182,7 +182,6 @@ related_publications: false
         ];
 
         function initializeQuiz(quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId) {
-            const quizContainer = document.getElementById(quizContainerId);
             const questionContainer = document.getElementById(questionContainerId);
             const questionElement = document.getElementById(questionElementId);
             const answerButtonsElement = document.getElementById(answerButtonsElementId);
@@ -254,5 +253,4 @@ related_publications: false
         }
 
         initializeQuiz('quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1');
-        initializeQuiz('quiz-container-2', 'question-container-2', 'question-2', '
-
+        initializeQuiz('quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-
