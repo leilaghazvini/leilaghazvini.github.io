@@ -76,26 +76,91 @@ related_publications: false
     <script>
         const questions = [
             {
-                question: "What is your favorite color?",
+                question: "When you travel do you?",
                 answers: [
-                    { text: "Red", category: "A" },
-                    { text: "Blue", category: "B" },
-                    { text: "Green", category: "C" },
-                    { text: "Yellow", category: "D" }
+                    { text: "Stay in a 5 star hotel", category: "A" },
+                    { text: "Stay in the cheapest hostel you can find", category: "C" },
+                    { text: "Stay with friends/family", category: "B" },
+                    { text: "YOLO, figure it out when you get there", category: "A" }
                 ]
             },
             {
-                question: "What is your favorite animal?",
+                question: "Fav type of straw",
                 answers: [
-                    { text: "Cat", category: "B" },
-                    { text: "Dog", category: "A" },
-                    { text: "Bird", category: "D" },
-                    { text: "Fish", category: "C" }
+                    { text: "Paper", category: "C" },
+                    { text: "Plastic", category: "A" },
+                    { text: "Silicone/glass reusable", category: "B" },
+                    { text: "Raw dog: no straw", category: "B" }
                 ]
             },
-            // Add more questions as needed
-        ];
-
+            {
+                question: "Do you like the smell of gasoline? ",
+                answers: [
+                    { text: "no", category: "A" "B" },
+                    { text: "yes", category: "C" },
+                ]
+            },
+            {
+                question: "The most I’ve paid a month in rent is…",
+                answers: [
+                    { text: "$800 (I’m not real)", category: "A" },
+                    { text: "$1000", category: "C" },
+                    { text: "$1,500", category: "B" },
+                    { text: "$3,000(ok, money bags)", category: "A" }
+                ]
+            },
+              {
+                question: "Fav sex and the city character?",
+                answers: [
+                    { text: "Carrie", category: "A" },
+                    { text: "Charlotte", category: "C" },
+                    { text: "Miranda", category: "C" },
+                    { text: "Samantha", category: "B" }
+                ]
+            },
+            {
+                question: "Did you drive a car in your college town?",
+                answers: [
+                    { text: "Yes", category: "C" },
+                    { text: "no", category: "A" "B" },
+                ]
+            },
+            {
+                question: "What brand is your reusable water bottle?",
+                answers: [
+                    { text: "Owala", category: "B" },
+                    { text: "Hydroflask", category: "B" },
+                    { text: "Stanley", category: "A" },
+                    { text: "I use plastic…", category: "C" }
+                ]
+            },
+            {
+                question: "How many housemates did you have in college (not including yourself)? ",
+                answers: [
+                    { text: "1-2", category: "C" },
+                    { text: "3-5", category: "A" },
+                    { text: "6-7", category: "B" },
+                    { text: "8+", category: "C" }
+                ]
+            },
+             {
+                question: "Fav vehicle?",
+                answers: [
+                    { text: "Car", category: "C" },
+                    { text: "Bus", category: "B" },
+                    { text: "Train", category: "A" },
+                    { text: "Plane", category: "C" }
+                ]
+            },
+             {
+                question: "Go-to pair of shoes?",
+                answers: [
+                    { text: "Sneakers", category: "A" },
+                    { text: "Running shoe ", category: "B" },
+                    { text: "Boot", category: "C" },
+                    { text: "Sandals", category: "B" }
+                ]
+            },
         const questionContainer = document.getElementById('question-container');
         const questionElement = document.getElementById('question');
         const answerButtonsElement = document.getElementById('answer-buttons');
