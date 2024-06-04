@@ -92,7 +92,7 @@ related_publications: false
     </div>
 
     <script>
-        const questions = [
+        const questions1 = [
             {
                 question: "When you travel do you?",
                 answers: [
@@ -180,8 +180,8 @@ related_publications: false
                 ]
             }
         ];
-          <script>
-        const questions = [
+
+        const questions2 = [
             {
                 question: "Pick a college affiliation:",
                 answers: [
@@ -274,7 +274,7 @@ related_publications: false
             }
         ];
 
-        function initializeQuiz(quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId) {
+        function initializeQuiz(quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions) {
             const questionContainer = document.getElementById(questionContainerId);
             const questionElement = document.getElementById(questionElementId);
             const answerButtonsElement = document.getElementById(answerButtonsElementId);
@@ -345,5 +345,8 @@ related_publications: false
             startGame();
         }
 
-        initializeQuiz('quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1');
-        initializeQuiz('quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-
+        initializeQuiz('quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1);
+        initializeQuiz('quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2);
+    </script>
+</body>
+</html>
