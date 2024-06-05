@@ -96,17 +96,17 @@ related_publications: false
             {
                 question: "When you travel do you?",
                 answers: [
-                    { text: "Stay in a 5 star hotel", category: "Transortation" },
+                    { text: "Stay in a 5 star hotel", category: "Transportation" },
                     { text: "Stay in the cheapest hostel you can find", category: "person who doesn't wear shoes" },
                     { text: "Stay with friends/family", category: "Environmental" },
-                    { text: "YOLO, figure it out when you get there", category: "Transortation" }
+                    { text: "YOLO, figure it out when you get there", category: "Transportation" }
                 ]
             },
             {
                 question: "Fav type of straw",
                 answers: [
                     { text: "Paper", category: "Housing" },
-                    { text: "Plastic", category: "Transortation" },
+                    { text: "Plastic", category: "Transportation" },
                     { text: "Silicone/glass reusable", category: "Environmental" },
                     { text: "Raw dog: no straw", category: "Environmental" }
                 ]
@@ -114,23 +114,23 @@ related_publications: false
             {
                 question: "Do you like the smell of gasoline?",
                 answers: [
-                    { text: "No", category: "Transortation" },
+                    { text: "No", category: "Transportation" },
                     { text: "Yes", category: "Housing" }
                 ]
             },
             {
                 question: "The most I’ve paid a month in rent is…",
                 answers: [
-                    { text: "$800 (I’m not real)", category: "Transortation" },
+                    { text: "$800 (I’m not real)", category: "Transportation" },
                     { text: "$1000", category: "Housing" },
                     { text: "$1,500", category: "Environmental" },
-                    { text: "$3,000 (ok, money bags)", category: "Transortation" }
+                    { text: "$3,000 (ok, money bags)", category: "Transportation" }
                 ]
             },
             {
                 question: "Fav sex and the city character?",
                 answers: [
-                    { text: "Carrie", category: "Transortation" },
+                    { text: "Carrie", category: "Transportation" },
                     { text: "Charlotte", category: "Housing" },
                     { text: "Miranda", category: "Housing" },
                     { text: "Samantha", category: "Environmental" }
@@ -140,7 +140,7 @@ related_publications: false
                 question: "Did you drive a car in your college town?",
                 answers: [
                     { text: "Yes", category: "Housing" },
-                    { text: "No", category: "Transortation" }
+                    { text: "No", category: "Transportation" }
                 ]
             },
             {
@@ -148,7 +148,7 @@ related_publications: false
                 answers: [
                     { text: "Owala", category: "Environmental" },
                     { text: "Hydroflask", category: "Environmental" },
-                    { text: "Stanley", category: "Transortation" },
+                    { text: "Stanley", category: "Transportation" },
                     { text: "I use plastic…", category: "Housing" }
                 ]
             },
@@ -156,7 +156,7 @@ related_publications: false
                 question: "How many housemates did you have in college (not including yourself)?",
                 answers: [
                     { text: "1-2", category: "Housing" },
-                    { text: "3-5", category: "Transortation" },
+                    { text: "3-5", category: "Transportation" },
                     { text: "6-7", category: "Environmental" },
                     { text: "8+", category: "Housing" }
                 ]
@@ -166,22 +166,20 @@ related_publications: false
                 answers: [
                     { text: "Car", category: "Housing" },
                     { text: "Bus", category: "Environmental" },
-                    { text: "Train", category: "Transortation" },
+                    { text: "Train", category: "Transportation" },
                     { text: "Plane", category: "Housing" }
                 ]
             },
             {
                 question: "Go-to pair of shoes?",
                 answers: [
-                    { text: "Sneakers", category: "Transortation" },
+                    { text: "Sneakers", category: "Transportation" },
                     { text: "Running shoe", category: "Environmental" },
                     { text: "Boot", category: "Housing" },
                     { text: "Sandals", category: "Environmental" }
                 ]
             }
         ];
-
-
 
         const questions2 = [
             {
@@ -269,8 +267,8 @@ related_publications: false
                 question: "You’re stuck on campus cramming for finals and desperate for food… What are you doing?", 
                 answers: [
                     { text: "Doordash chipotle, takes 2 hours to get there and costs you your first born child (the worst bowl you’ve ever had in your life)", category: "Alaina" },
-                    { text: "Paying $8 for the dining hall- chance to reminisce", category: "tall white guy with curly brown hair"" },
-                    { text: "On the prowl for a vending machine going ferrell when you find one, takes you about an hour to acomplish this mission", category: "Research STEM Queen" },
+                    { text: "Paying $8 for the dining hall- chance to reminisce", category: "tall white guy with curly brown hair" },
+                    { text: "On the prowl for a vending machine going feral when you find one, takes you about an hour to accomplish this mission", category: "Research STEM Queen" },
                     { text: "Paying $20 for overpriced mediocre fusion cuisine from a food truck ", category: "person who doesn't wear shoes" }
                 ]
             }
