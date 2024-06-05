@@ -96,87 +96,87 @@ related_publications: false
             {
                 question: "When you travel do you?",
                 answers: [
-                    { text: "Stay in a 5 star hotel", category: "A" },
-                    { text: "Stay in the cheapest hostel you can find", category: "C" },
-                    { text: "Stay with friends/family", category: "B" },
-                    { text: "YOLO, figure it out when you get there", category: "A" }
+                    { text: "Stay in a 5 star hotel", category: "Transortation" },
+                    { text: "Stay in the cheapest hostel you can find", category: "person who doesn't wear shoes" },
+                    { text: "Stay with friends/family", category: "Environmental" },
+                    { text: "YOLO, figure it out when you get there", category: "Transortation" }
                 ]
             },
             {
                 question: "Fav type of straw",
                 answers: [
-                    { text: "Paper", category: "C" },
-                    { text: "Plastic", category: "A" },
-                    { text: "Silicone/glass reusable", category: "B" },
-                    { text: "Raw dog: no straw", category: "B" }
+                    { text: "Paper", category: "Housing" },
+                    { text: "Plastic", category: "Transortation" },
+                    { text: "Silicone/glass reusable", category: "Environmental" },
+                    { text: "Raw dog: no straw", category: "Environmental" }
                 ]
             },
             {
                 question: "Do you like the smell of gasoline?",
                 answers: [
-                    { text: "No", category: "A" },
-                    { text: "Yes", category: "C" }
+                    { text: "No", category: "Transortation" },
+                    { text: "Yes", category: "Housing" }
                 ]
             },
             {
                 question: "The most I’ve paid a month in rent is…",
                 answers: [
-                    { text: "$800 (I’m not real)", category: "A" },
-                    { text: "$1000", category: "C" },
-                    { text: "$1,500", category: "B" },
-                    { text: "$3,000 (ok, money bags)", category: "A" }
+                    { text: "$800 (I’m not real)", category: "Transortation" },
+                    { text: "$1000", category: "Housing" },
+                    { text: "$1,500", category: "Environmental" },
+                    { text: "$3,000 (ok, money bags)", category: "Transortation" }
                 ]
             },
             {
                 question: "Fav sex and the city character?",
                 answers: [
-                    { text: "Carrie", category: "A" },
-                    { text: "Charlotte", category: "C" },
-                    { text: "Miranda", category: "C" },
-                    { text: "Samantha", category: "B" }
+                    { text: "Carrie", category: "Transortation" },
+                    { text: "Charlotte", category: "Housing" },
+                    { text: "Miranda", category: "Housing" },
+                    { text: "Samantha", category: "Environmental" }
                 ]
             },
             {
                 question: "Did you drive a car in your college town?",
                 answers: [
-                    { text: "Yes", category: "C" },
-                    { text: "No", category: "A" }
+                    { text: "Yes", category: "Housing" },
+                    { text: "No", category: "Transortation" }
                 ]
             },
             {
                 question: "What brand is your reusable water bottle?",
                 answers: [
-                    { text: "Owala", category: "B" },
-                    { text: "Hydroflask", category: "B" },
-                    { text: "Stanley", category: "A" },
-                    { text: "I use plastic…", category: "C" }
+                    { text: "Owala", category: "Environmental" },
+                    { text: "Hydroflask", category: "Environmental" },
+                    { text: "Stanley", category: "Transortation" },
+                    { text: "I use plastic…", category: "Housing" }
                 ]
             },
             {
                 question: "How many housemates did you have in college (not including yourself)?",
                 answers: [
-                    { text: "1-2", category: "C" },
-                    { text: "3-5", category: "A" },
-                    { text: "6-7", category: "B" },
-                    { text: "8+", category: "C" }
+                    { text: "1-2", category: "Housing" },
+                    { text: "3-5", category: "Transortation" },
+                    { text: "6-7", category: "Environmental" },
+                    { text: "8+", category: "Housing" }
                 ]
             },
             {
                 question: "Fav vehicle?",
                 answers: [
-                    { text: "Car", category: "C" },
-                    { text: "Bus", category: "B" },
-                    { text: "Train", category: "A" },
-                    { text: "Plane", category: "C" }
+                    { text: "Car", category: "Housing" },
+                    { text: "Bus", category: "Environmental" },
+                    { text: "Train", category: "Transortation" },
+                    { text: "Plane", category: "Housing" }
                 ]
             },
             {
                 question: "Go-to pair of shoes?",
                 answers: [
-                    { text: "Sneakers", category: "A" },
-                    { text: "Running shoe", category: "B" },
-                    { text: "Boot", category: "C" },
-                    { text: "Sandals", category: "B" }
+                    { text: "Sneakers", category: "Transortation" },
+                    { text: "Running shoe", category: "Environmental" },
+                    { text: "Boot", category: "Housing" },
+                    { text: "Sandals", category: "Environmental" }
                 ]
             }
         ];
@@ -185,91 +185,91 @@ related_publications: false
             {
                 question: "Pick a college affiliation:",
                 answers: [
-                    { text: "Stevenson", category: "B" },
-                    { text: "Crown", category: "A" },
-                    { text: "Porter", category: "B" },
-                    { text: "Kresge", category: "C" }
+                    { text: "Stevenson", category: "tall white guy with curly brown hair" },
+                    { text: "Crown", category: "Research STEM Queen" },
+                    { text: "Porter", category: "Alaina" },
+                    { text: "Kresge", category: "person who doesn't wear shoes" }
                 ]
             },
             {
                 question: "Fav greenhouse gas?",
                 answers: [
-                    { text: "Carbon Dioxide", category: "C" },
-                    { text: "Methane", category: "D" },
-                    { text: "Nitrous oxide ", category: "B" },
-                    { text: "Hydrofluorocarbons", category: "A" }
+                    { text: "Carbon Dioxide", category: "person who doesn't wear shoes" },
+                    { text: "Methane", category: "Alaina" },
+                    { text: "Nitrous oxide ", category: "tall white guy with curly brown hair" },
+                    { text: "Hydrofluorocarbons", category: "Research STEM Queen" }
                 ]
             },
             {
                 question: "How do you transport to class",
                 answers: [
-                    { text: "Combination of bus and walk", category: "D" },
-                    { text: "Drive and park in west remote", category: "B" },
-                    { text: "Bike with the dogs out (woof woof)", category: "C" },
-                    { text: "Go to campus in the morning and bring lunch so you don’t have to go back and forth between campus and home (you live by the base) ", category: "A" }
+                    { text: "Combination of bus and walk", category: "Alaina" },
+                    { text: "Drive and park in west remote", category: "tall white guy with curly brown hair" },
+                    { text: "Bike with the dogs out (woof woof)", category: "person who doesn't wear shoes" },
+                    { text: "Go to campus in the morning and bring lunch so you don’t have to go back and forth between campus and home (you live by the base) ", category: "Research STEM Queen" }
                 ]
             },
             {
                 question: "Your ideal night out in Santa Cruz?",
                 answers: [
-                    { text: "That one casino by subrosa", category: "C" },
-                    { text: "Surf City", category: "B" },
-                    { text: "People’s disco then taco bell ", category: "D" },
-                    { text: "Intimate house party (you know 1 person there and get really drunk and confuse everyone there)", category: "A" }
+                    { text: "That one casino by subrosa", category: "person who doesn't wear shoes" },
+                    { text: "Surf City", category: "tall white guy with curly brown hair" },
+                    { text: "People’s disco then taco bell ", category: "Alaina" },
+                    { text: "Intimate house party (you know 1 person there and get really drunk and confuse everyone there)", category: "Research STEM Queen" }
                 ]
             },
             {
                 question: "Fav sex and the city character?",
                 answers: [
-                    { text: "Carrie", category: "B" },
-                    { text: "Charlotte", category: "D" },
-                    { text: "Miranda", category: "A" },
-                    { text: "Samantha", category: "C" }
+                    { text: "Carrie", category: "tall white guy with curly brown hair" },
+                    { text: "Charlotte", category: "Alaina" },
+                    { text: "Miranda", category: "Research STEM Queen" },
+                    { text: "Samantha", category: "person who doesn't wear shoes" }
                 ]
             },
             {
                 question: "Happy Halloween! What is your costume?",
                 answers: [
-                    { text: "Mario", category: "D" },
-                    { text: "Luigi", category: "B" },
-                    { text: "T shirt that has a formal shirt with bow tie on it ", category: "C" },
-                    { text: "Generic sexy animal", category: "A" }
+                    { text: "Mario", category: "Alaina" },
+                    { text: "Luigi", category: "tall white guy with curly brown hair" },
+                    { text: "T shirt that has a formal shirt with bow tie on it ", category: "person who doesn't wear shoes" },
+                    { text: "Generic sexy animal", category: "Research STEM Queen" }
                 ]
             },
             {
                 question: "Pick an ENVS internship",
                 answers: [
-                    { text: "Cowell Coffee Shop", category: "D" },
-                    { text: "Work on the farm (bought new overalls just for the internship and they still look brand new)", category: "C" },
-                    { text: "Research at Año nuevo reserve (long bus ride complains about it to all her friends)", category: "A" },
-                    { text: "Private renewable energy consulting (doesn’t actually do anything here)", category: "B" }
+                    { text: "Cowell Coffee Shop", category: "Alaina" },
+                    { text: "Work on the farm (bought new overalls just for the internship and they still look brand new)", category: "person who doesn't wear shoes" },
+                    { text: "Research at Año nuevo reserve (long bus ride complains about it to all her friends)", category: "Research STEM Queen" },
+                    { text: "Private renewable energy consulting (doesn’t actually do anything here)", category: "tall white guy with curly brown hair" }
                 ]
             },
             {
                 question: "Favorite type of going out",
                 answers: [
-                    { text: "Forest Party", category: "C" },
-                    { text: "House Show", category: "B" },
-                    { text: "Bars", category: "D" },
-                    { text: "Staying in and seshing", category: "A" }
+                    { text: "Forest Party", category: "person who doesn't wear shoes" },
+                    { text: "House Show", category: "tall white guy with curly brown hair" },
+                    { text: "Bars", category: "Alaina" },
+                    { text: "Staying in and seshing", category: "Research STEM Queen" }
                 ]
             },
             {
                 question: "Post grad dream job",
                 answers: [
-                    { text: "Low paying research position while getting masters", category: "A" },
-                    { text: "Somalie", category: "D" },
-                    { text: "Green peace", category: "C" },
-                    { text: "Envs econ consulting", category: "B" }
+                    { text: "Low paying research position while getting masters", category: "Research STEM Queen" },
+                    { text: "Somalie", category: "Alaina" },
+                    { text: "Green peace", category: "person who doesn't wear shoes" },
+                    { text: "Envs econ consulting", category: "tall white guy with curly brown hair" }
                 ]
             },
             {
                 question: "You’re stuck on campus cramming for finals and desperate for food… What are you doing?", 
                 answers: [
-                    { text: "Doordash chipotle, takes 2 hours to get there and costs you your first born child (the worst bowl you’ve ever had in your life)", category: "D" },
-                    { text: "Paying $8 for the dining hall- chance to reminisce", category: "B" },
-                    { text: "On the prowl for a vending machine going ferrell when you find one, takes you about an hour to acomplish this mission", category: "A" },
-                    { text: "Paying $20 for overpriced mediocre fusion cuisine from a food truck ", category: "C" }
+                    { text: "Doordash chipotle, takes 2 hours to get there and costs you your first born child (the worst bowl you’ve ever had in your life)", category: "Alaina" },
+                    { text: "Paying $8 for the dining hall- chance to reminisce", category: "tall white guy with curly brown hair"" },
+                    { text: "On the prowl for a vending machine going ferrell when you find one, takes you about an hour to acomplish this mission", category: "Research STEM Queen" },
+                    { text: "Paying $20 for overpriced mediocre fusion cuisine from a food truck ", category: "person who doesn't wear shoes" }
                 ]
             }
         ];
