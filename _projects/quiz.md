@@ -26,7 +26,7 @@ related_publications: false
             gap: 20px;
         }
 
-        .quiz-container, .result-container {
+        .quiz-container, .result-container, .cover-container {
             width: 500px;
             padding: 20px;
             background-color: white;
@@ -57,13 +57,21 @@ related_publications: false
             display: none;
         }
 
-        .next-btn, .restart-btn {
+        .next-btn, .restart-btn, .start-btn {
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div id="quiz-container-1" class="quiz-container">
+    <!-- Cover Page for Quiz 1 -->
+    <div id="cover-container-1" class="cover-container">
+        <h2>Welcome to Quiz 1</h2>
+        <p>This is the description for Quiz 1.</p>
+        <button id="start-btn-1" class="btn start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz 1 -->
+    <div id="quiz-container-1" class="quiz-container hide">
         <div id="question-container-1">
             <div id="question-1">KEY</div>
             <div id="answer-buttons-1" class="btn-container">
@@ -77,7 +85,15 @@ related_publications: false
         <button id="restart-btn-1" class="btn restart-btn">Restart</button>
     </div>
 
-    <div id="quiz-container-2" class="quiz-container">
+    <!-- Cover Page for Quiz 2 -->
+    <div id="cover-container-2" class="cover-container">
+        <h2>Welcome to Quiz 2</h2>
+        <p>This is the description for Quiz 2.</p>
+        <button id="start-btn-2" class="btn start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz 2 -->
+    <div id="quiz-container-2" class="quiz-container hide">
         <div id="question-container-2">
             <div id="question-2">KEY</div>
             <div id="answer-buttons-2" class="btn-container">
@@ -92,189 +108,10 @@ related_publications: false
     </div>
 
     <script>
-        const questions1 = [
-            {
-                question: "When you travel do you?",
-                answers: [
-                    { text: "Stay in a 5 star hotel", category: "Transportation" },
-                    { text: "Stay in the cheapest hostel you can find", category: "person who doesn't wear shoes" },
-                    { text: "Stay with friends/family", category: "Environmental" },
-                    { text: "YOLO, figure it out when you get there", category: "Transportation" }
-                ]
-            },
-            {
-                question: "Fav type of straw",
-                answers: [
-                    { text: "Paper", category: "Housing" },
-                    { text: "Plastic", category: "Transportation" },
-                    { text: "Silicone/glass reusable", category: "Environmental" },
-                    { text: "Raw dog: no straw", category: "Environmental" }
-                ]
-            },
-            {
-                question: "Do you like the smell of gasoline?",
-                answers: [
-                    { text: "No", category: "Transportation" },
-                    { text: "Yes", category: "Housing" }
-                ]
-            },
-            {
-                question: "The most I’ve paid a month in rent is…",
-                answers: [
-                    { text: "$800 (I’m not real)", category: "Transportation" },
-                    { text: "$1000", category: "Housing" },
-                    { text: "$1,500", category: "Environmental" },
-                    { text: "$3,000 (ok, money bags)", category: "Transportation" }
-                ]
-            },
-            {
-                question: "Fav sex and the city character?",
-                answers: [
-                    { text: "Carrie", category: "Transportation" },
-                    { text: "Charlotte", category: "Housing" },
-                    { text: "Miranda", category: "Housing" },
-                    { text: "Samantha", category: "Environmental" }
-                ]
-            },
-            {
-                question: "Did you drive a car in your college town?",
-                answers: [
-                    { text: "Yes", category: "Housing" },
-                    { text: "No", category: "Transportation" }
-                ]
-            },
-            {
-                question: "What brand is your reusable water bottle?",
-                answers: [
-                    { text: "Owala", category: "Environmental" },
-                    { text: "Hydroflask", category: "Environmental" },
-                    { text: "Stanley", category: "Transportation" },
-                    { text: "I use plastic…", category: "Housing" }
-                ]
-            },
-            {
-                question: "How many housemates did you have in college (not including yourself)?",
-                answers: [
-                    { text: "1-2", category: "Housing" },
-                    { text: "3-5", category: "Transportation" },
-                    { text: "6-7", category: "Environmental" },
-                    { text: "8+", category: "Housing" }
-                ]
-            },
-            {
-                question: "Fav vehicle?",
-                answers: [
-                    { text: "Car", category: "Housing" },
-                    { text: "Bus", category: "Environmental" },
-                    { text: "Train", category: "Transportation" },
-                    { text: "Plane", category: "Housing" }
-                ]
-            },
-            {
-                question: "Go-to pair of shoes?",
-                answers: [
-                    { text: "Sneakers", category: "Transportation" },
-                    { text: "Running shoe", category: "Environmental" },
-                    { text: "Boot", category: "Housing" },
-                    { text: "Sandals", category: "Environmental" }
-                ]
-            }
-        ];
-
-        const questions2 = [
-            {
-                question: "Pick a college affiliation:",
-                answers: [
-                    { text: "Stevenson", category: "tall white guy with curly brown hair" },
-                    { text: "Crown", category: "Research STEM Queen" },
-                    { text: "Porter", category: "Alaina" },
-                    { text: "Kresge", category: "person who doesn't wear shoes" }
-                ]
-            },
-            {
-                question: "Fav greenhouse gas?",
-                answers: [
-                    { text: "Carbon Dioxide", category: "person who doesn't wear shoes" },
-                    { text: "Methane", category: "Alaina" },
-                    { text: "Nitrous oxide ", category: "tall white guy with curly brown hair" },
-                    { text: "Hydrofluorocarbons", category: "Research STEM Queen" }
-                ]
-            },
-            {
-                question: "How do you transport to class",
-                answers: [
-                    { text: "Combination of bus and walk", category: "Alaina" },
-                    { text: "Drive and park in west remote", category: "tall white guy with curly brown hair" },
-                    { text: "Bike with the dogs out (woof woof)", category: "person who doesn't wear shoes" },
-                    { text: "Go to campus in the morning and bring lunch so you don’t have to go back and forth between campus and home (you live by the base) ", category: "Research STEM Queen" }
-                ]
-            },
-            {
-                question: "Your ideal night out in Santa Cruz?",
-                answers: [
-                    { text: "That one casino by subrosa", category: "person who doesn't wear shoes" },
-                    { text: "Surf City", category: "tall white guy with curly brown hair" },
-                    { text: "People’s disco then taco bell ", category: "Alaina" },
-                    { text: "Intimate house party (you know 1 person there and get really drunk and confuse everyone there)", category: "Research STEM Queen" }
-                ]
-            },
-            {
-                question: "Fav sex and the city character?",
-                answers: [
-                    { text: "Carrie", category: "tall white guy with curly brown hair" },
-                    { text: "Charlotte", category: "Alaina" },
-                    { text: "Miranda", category: "Research STEM Queen" },
-                    { text: "Samantha", category: "person who doesn't wear shoes" }
-                ]
-            },
-            {
-                question: "Happy Halloween! What is your costume?",
-                answers: [
-                    { text: "Mario", category: "Alaina" },
-                    { text: "Luigi", category: "tall white guy with curly brown hair" },
-                    { text: "T shirt that has a formal shirt with bow tie on it ", category: "person who doesn't wear shoes" },
-                    { text: "Generic sexy animal", category: "Research STEM Queen" }
-                ]
-            },
-            {
-                question: "Pick an ENVS internship",
-                answers: [
-                    { text: "Cowell Coffee Shop", category: "Alaina" },
-                    { text: "Work on the farm (bought new overalls just for the internship and they still look brand new)", category: "person who doesn't wear shoes" },
-                    { text: "Research at Año nuevo reserve (long bus ride complains about it to all her friends)", category: "Research STEM Queen" },
-                    { text: "Private renewable energy consulting (doesn’t actually do anything here)", category: "tall white guy with curly brown hair" }
-                ]
-            },
-            {
-                question: "Favorite type of going out",
-                answers: [
-                    { text: "Forest Party", category: "person who doesn't wear shoes" },
-                    { text: "House Show", category: "tall white guy with curly brown hair" },
-                    { text: "Bars", category: "Alaina" },
-                    { text: "Staying in and seshing", category: "Research STEM Queen" }
-                ]
-            },
-            {
-                question: "Post grad dream job",
-                answers: [
-                    { text: "Low paying research position while getting masters", category: "Research STEM Queen" },
-                    { text: "Somalie", category: "Alaina" },
-                    { text: "Green peace", category: "person who doesn't wear shoes" },
-                    { text: "Envs econ consulting", category: "tall white guy with curly brown hair" }
-                ]
-            },
-            {
-                question: "You’re stuck on campus cramming for finals and desperate for food… What are you doing?", 
-                answers: [
-                    { text: "Doordash chipotle, takes 2 hours to get there and costs you your first born child (the worst bowl you’ve ever had in your life)", category: "Alaina" },
-                    { text: "Paying $8 for the dining hall- chance to reminisce", category: "tall white guy with curly brown hair" },
-                    { text: "On the prowl for a vending machine going feral when you find one, takes you about an hour to accomplish this mission", category: "Research STEM Queen" },
-                    { text: "Paying $20 for overpriced mediocre fusion cuisine from a food truck ", category: "person who doesn't wear shoes" }
-                ]
-            }
-        ];
-
-        function initializeQuiz(quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions) {
+        function initializeQuiz(coverContainerId, startButtonId, quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions) {
+            const coverContainer = document.getElementById(coverContainerId);
+            const startButton = document.getElementById(startButtonId);
+            const quizContainer = document.getElementById(quizContainerId);
             const questionContainer = document.getElementById(questionContainerId);
             const questionElement = document.getElementById(questionElementId);
             const answerButtonsElement = document.getElementById(answerButtonsElementId);
@@ -285,6 +122,12 @@ related_publications: false
 
             let currentQuestionIndex = 0;
             let selectedCategories = [];
+
+            startButton.addEventListener('click', () => {
+                coverContainer.classList.add('hide');
+                quizContainer.classList.remove('hide');
+                startGame();
+            });
 
             function startGame() {
                 currentQuestionIndex = 0;
@@ -340,13 +183,17 @@ related_publications: false
                 showQuestion(questions[currentQuestionIndex]);
             });
 
-            restartButton.addEventListener('click', startGame);
+            restartButton.addEventListener('click', () => {
+                coverContainer.classList.remove('hide');
+                quizContainer.classList.add('hide');
+                startGame();
+            });
 
             startGame();
         }
 
-        initializeQuiz('quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1);
-        initializeQuiz('quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2);
+        initializeQuiz('cover-container-1', 'start-btn-1', 'quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1);
+        initializeQuiz('cover-container-2', 'start-btn-2', 'quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2);
     </script>
 </body>
 </html>
