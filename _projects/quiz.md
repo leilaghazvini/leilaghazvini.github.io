@@ -1,13 +1,12 @@
 ---
 layout: page
 title: New project...in the works
-description: New Project 
+description: Personality Quiz 
 img: assets/img/4.png
 importance: 3
 category: fun
 related_publications: false
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
