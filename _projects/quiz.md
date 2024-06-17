@@ -7,7 +7,6 @@ importance: 3
 category: fun
 related_publications: false
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
