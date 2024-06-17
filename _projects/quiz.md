@@ -21,8 +21,8 @@ related_publications: false
             height: 100vh;
             margin: 0;
             background-color: #f4f4f4;
-            flex-wrap: wrap;
             gap: 20px;
+            flex-wrap: wrap; /* Ensure containers wrap on smaller screens */
         }
 
         .quiz-container, .result-container, .cover-container {
@@ -31,6 +31,8 @@ related_publications: false
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1; /* Distribute available space equally */
+            margin-right: 20px; /* Spacing between containers */
         }
 
         .btn-container {
@@ -107,92 +109,118 @@ related_publications: false
     </div>
 
     <script>
-        function initializeQuiz(coverContainerId, startButtonId, quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions) {
-            const coverContainer = document.getElementById(coverContainerId);
-            const startButton = document.getElementById(startButtonId);
-            const quizContainer = document.getElementById(quizContainerId);
-            const questionContainer = document.getElementById(questionContainerId);
-            const questionElement = document.getElementById(questionElementId);
-            const answerButtonsElement = document.getElementById(answerButtonsElementId);
-            const nextButton = document.getElementById(nextButtonId);
-            const resultContainer = document.getElementById(resultContainerId);
-            const resultElement = document.getElementById(resultElementId);
-            const restartButton = document.getElementById(restartButtonId);
-
-            let currentQuestionIndex = 0;
-            let selectedCategories = [];
-
-            startButton.addEventListener('click', () => {
-                coverContainer.classList.add('hide');
-                quizContainer.classList.remove('hide');
-                startGame();
-            });
-
-            function startGame() {
-                currentQuestionIndex = 0;
-                selectedCategories = [];
-                nextButton.classList.add('hide');
-                resultContainer.classList.add('hide');
-                questionContainer.classList.remove('hide');
-                showQuestion(questions[currentQuestionIndex]);
+        const questions1 = [
+            {
+                question: "When you travel do you?",
+                answers: [
+                    { text: "Stay in a 5 star hotel", category: "Transportation" },
+                    { text: "Stay in the cheapest hostel you can find", category: "person who doesn't wear shoes" },
+                    { text: "Stay with friends/family", category: "Environmental" },
+                    { text: "YOLO, figure it out when you get there", category: "Transportation" }
+                ]
+            },
+            {
+                question: "Fav type of straw",
+                answers: [
+                    { text: "Paper", category: "Housing" },
+                    { text: "Plastic", category: "Transportation" },
+                    { text: "Silicone/glass reusable", category: "Environmental" },
+                    { text: "Raw dog: no straw", category: "Environmental" }
+                ]
+            },
+            {
+                question: "Do you like the smell of gasoline?",
+                answers: [
+                    { text: "No", category: "Transportation" },
+                    { text: "Yes", category: "Housing" }
+                ]
+            },
+            {
+                question: "The most I’ve paid a month in rent is…",
+                answers: [
+                    { text: "$800 (I’m not real)", category: "Transportation" },
+                    { text: "$1000", category: "Housing" },
+                    { text: "$1,500", category: "Environmental" },
+                    { text: "$3,000 (ok, money bags)", category: "Transportation" }
+                ]
+            },
+            {
+                question: "Fav sex and the city character?",
+                answers: [
+                    { text: "Carrie", category: "Transportation" },
+                    { text: "Charlotte", category: "Housing" },
+                    { text: "Miranda", category: "Housing" },
+                    { text: "Samantha", category: "Environmental" }
+                ]
+            },
+            {
+                question: "Did you drive a car in your college town?",
+                answers: [
+                    { text: "Yes", category: "Housing" },
+                    { text: "No", category: "Transportation" }
+                ]
+            },
+            {
+                question: "What brand is your reusable water bottle?",
+                answers: [
+                    { text: "Owala", category: "Environmental" },
+                    { text: "Hydroflask", category: "Environmental" },
+                    { text: "Stanley", category: "Transportation" },
+                    { text: "I use plastic…", category: "Housing" }
+                ]
+            },
+            {
+                question: "How many housemates did you have in college (not including yourself)?",
+                answers: [
+                    { text: "1-2", category: "Housing" },
+                    { text: "3-5", category: "Transportation" },
+                    { text: "6-7", category: "Environmental" },
+                    { text: "8+", category: "Housing" }
+                ]
+            },
+            {
+                question: "Fav vehicle?",
+                answers: [
+                    { text: "Car", category: "Housing" },
+                    { text: "Bus", category: "Environmental" },
+                    { text: "Train", category: "Transportation" },
+                    { text: "Plane", category: "Housing" }
+                ]
+            },
+            {
+                question: "Go-to pair of shoes?",
+                answers: [
+                    { text: "Sneakers", category: "Transportation" },
+                    { text: "Running shoe", category: "Environmental" },
+                    { text: "Boot", category: "Housing" },
+                    { text: "Sandals", category: "Environmental" }
+                ]
             }
+        ];
 
-            function showQuestion(question) {
-                questionElement.innerText = question.question;
-                answerButtonsElement.innerHTML = '';
-                question.answers.forEach(answer => {
-                    const button = document.createElement('button');
-                    button.innerText = answer.text;
-                    button.classList.add('btn');
-                    button.addEventListener('click', () => selectAnswer(answer));
-                    answerButtonsElement.appendChild(button);
-                });
-            }
-
-            function selectAnswer(answer) {
-                selectedCategories.push(answer.category);
-                if (currentQuestionIndex < questions.length - 1) {
-                    currentQuestionIndex++;
-                    showQuestion(questions[currentQuestionIndex]);
-                } else {
-                    showResults();
-                }
-            }
-
-            function showResults() {
-                questionContainer.classList.add('hide');
-                resultContainer.classList.remove('hide');
-
-                const result = calculateResult();
-                resultElement.innerText = `Your result is: ${result}`;
-            }
-
-            function calculateResult() {
-                const categoryCounts = selectedCategories.reduce((counts, category) => {
-                    counts[category] = (counts[category] || 0) + 1;
-                    return counts;
-                }, {});
-
-                return Object.keys(categoryCounts).reduce((a, b) => categoryCounts[a] > categoryCounts[b] ? a : b);
-            }
-
-            nextButton.addEventListener('click', () => {
-                currentQuestionIndex++;
-                nextButton.classList.add('hide');
-                showQuestion(questions[currentQuestionIndex]);
-            });
-
-            restartButton.addEventListener('click', () => {
-                coverContainer.classList.remove('hide');
-                quizContainer.classList.add('hide');
-                startGame();
-            });
-
-            startGame();
-        }
-
-        initializeQuiz('cover-container-1', 'start-btn-1', 'quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1);
-        initializeQuiz('cover-container-2', 'start-btn-2', 'quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2);
-    </script>
-</body>
-</html>
+        const questions2 = [
+            {
+                question: "Pick a college affiliation:",
+                answers: [
+                    { text: "Stevenson", category: "tall white guy with curly brown hair" },
+                    { text: "Crown", category: "Research STEM Queen" },
+                    { text: "Porter", category: "Alaina" },
+                    { text: "Kresge", category: "person who doesn't wear shoes" }
+                ]
+            },
+            {
+                question: "Fav greenhouse gas?",
+                answers: [
+                    { text: "Carbon Dioxide", category: "person who doesn't wear shoes" },
+                    { text: "Methane", category: "Alaina" },
+                    { text: "Nitrous oxide ", category: "tall white guy with curly brown hair" },
+                    { text: "Hydrofluorocarbons", category: "Research STEM Queen" }
+                ]
+            },
+            {
+                question: "How do you transport to class",
+                answers: [
+                    { text: "Combination of bus and walk", category: "Alaina" },
+                    { text: "Drive and park in west remote", category: "tall white guy with curly brown hair" },
+                    { text: "Bike with the dogs out (woof woof)", category: "person who doesn't wear shoes" },
+                    { text: "Go to campus in the morning and bring lunch so you don’t have to go back and forth between campus and home (you live by the base)
