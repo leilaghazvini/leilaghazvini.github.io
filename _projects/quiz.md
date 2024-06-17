@@ -65,8 +65,8 @@ related_publications: false
 <body>
     <!-- Cover Page for Quiz 1 -->
     <div id="cover-container-1" class="cover-container">
-        <h2>Welcome to Quiz 1</h2>
-        <p>This is the description for Quiz 1.</p>
+        <h2>Which type of Urban Planner are you?</h2>
+        <p>Urban planners work to develop and enhance various aspects of our communities. Different types of urban planners specialize in specific areas, including transportation, the environment, and housing. This quiz helps determine which type of urban planner you would be.</p>
         <button id="start-btn-1" class="btn start-btn">Start Quiz</button>
     </div>
 
@@ -87,8 +87,8 @@ related_publications: false
 
     <!-- Cover Page for Quiz 2 -->
     <div id="cover-container-2" class="cover-container">
-        <h2>Welcome to Quiz 2</h2>
-        <p>This is the description for Quiz 2.</p>
+        <h2>Which type of Environmental Studies Major are you?</h2>
+        <p>Being an Environmental Studies major at UCSC is a very specific experience that I wish every human could experience. Hopefully this quiz can help give you a glimpse.</p>
         <button id="start-btn-2" class="btn start-btn">Start Quiz</button>
     </div>
 
