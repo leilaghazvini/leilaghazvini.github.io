@@ -7,6 +7,7 @@ importance: 3
 category: fun
 related_publications: false
 ---
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -104,7 +105,7 @@ related_publications: false
     </div>
 
     <script>
-        function initializeQuiz(coverContainerId, startButtonId, quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions) {
+        function initializeQuiz(coverContainerId, startButtonId, quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions, quizName) {
             const coverContainer = document.getElementById(coverContainerId);
             const startButton = document.getElementById(startButtonId);
             const quizContainer = document.getElementById(quizContainerId);
@@ -162,6 +163,7 @@ related_publications: false
 
                 const result = calculateResult();
                 resultElement.innerText = `Your result is: ${result}`;
+                sendResultToGoogleSheets(result);
             }
 
             function calculateResult() {
@@ -171,6 +173,17 @@ related_publications: false
                 }, {});
 
                 return Object.keys(categoryCounts).reduce((a, b) => categoryCounts[a] > categoryCounts[b] ? a : b);
+            }
+
+            function sendResultToGoogleSheets(result) {
+                const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+                const data = new FormData();
+                data.append('quizName', quizName);
+                data.append('result', result);
+
+                fetch(scriptURL, { method: 'POST', body: data })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message));
             }
 
             nextButton.addEventListener('click', () => {
@@ -196,8 +209,8 @@ related_publications: false
             // Quiz 2 questions here
         ];
 
-        initializeQuiz('cover-container-1', 'start-btn-1', 'quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1);
-        initializeQuiz('cover-container-2', 'start-btn-2', 'quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2);
+        initializeQuiz('cover-container-1', 'start-btn-1', 'quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1, 'Urban Planner Quiz');
+        initializeQuiz('cover-container-2', 'start-btn-2', 'quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2, 'Environmental Studies Quiz');
     </script>
 </body>
 </html>
