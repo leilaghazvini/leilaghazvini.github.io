@@ -7,19 +7,20 @@ importance: 3
 category: fun
 related_publications: false
 ---
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
 
     
+        
           
-            
     
 
-          
-          Expand Down
+        
+        Expand All
     
-    
+    @@ -15,14 +16,8 @@ related_publications: false
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BuzzFeed Style Quiz</title>
@@ -29,7 +30,19 @@ related_publications: false
             background-color: #f4f4f4;
             margin: 0;
         }
+
         .quiz-container, .result-container, .cover-container {
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -31,8 +26,9 @@ related_publications: false
+  
             width: 500px;
             padding: 20px;
             background-color: white;
@@ -39,7 +52,25 @@ related_publications: false
             margin: 10px; /* Optional: Add margin between containers */
             vertical-align: top; /* Align containers at the top */
         }
+
         .btn-container {
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -109,118 +105,100 @@ related_publications: false
+  
             display: flex;
             flex-direction: column;
         }
@@ -104,6 +135,7 @@ related_publications: false
         <div id="result-2">Your result is...</div>
         <button id="restart-btn-2" class="btn restart-btn">Restart</button>
     </div>
+
     <script>
         function initializeQuiz(coverContainerId, startButtonId, quizContainerId, questionContainerId, questionElementId, answerButtonsElementId, nextButtonId, resultContainerId, resultElementId, restartButtonId, questions) {
             const coverContainer = document.getElementById(coverContainerId);
@@ -116,13 +148,16 @@ related_publications: false
             const resultContainer = document.getElementById(resultContainerId);
             const resultElement = document.getElementById(resultElementId);
             const restartButton = document.getElementById(restartButtonId);
+
             let currentQuestionIndex = 0;
             let selectedCategories = [];
+
             startButton.addEventListener('click', () => {
                 coverContainer.classList.add('hide');
                 quizContainer.classList.remove('hide');
                 startGame();
             });
+
             function startGame() {
                 currentQuestionIndex = 0;
                 selectedCategories = [];
@@ -131,6 +166,7 @@ related_publications: false
                 questionContainer.classList.remove('hide');
                 showQuestion(questions[currentQuestionIndex]);
             }
+
             function showQuestion(question) {
                 questionElement.innerText = question.question;
                 answerButtonsElement.innerHTML = '';
@@ -142,6 +178,7 @@ related_publications: false
                     answerButtonsElement.appendChild(button);
                 });
             }
+
             function selectAnswer(answer) {
                 selectedCategories.push(answer.category);
                 if (currentQuestionIndex < questions.length - 1) {
@@ -151,37 +188,47 @@ related_publications: false
                     showResults();
                 }
             }
+
             function showResults() {
                 questionContainer.classList.add('hide');
                 resultContainer.classList.remove('hide');
+
                 const result = calculateResult();
                 resultElement.innerText = `Your result is: ${result}`;
             }
+
             function calculateResult() {
                 const categoryCounts = selectedCategories.reduce((counts, category) => {
                     counts[category] = (counts[category] || 0) + 1;
                     return counts;
                 }, {});
+
                 return Object.keys(categoryCounts).reduce((a, b) => categoryCounts[a] > categoryCounts[b] ? a : b);
             }
+
             nextButton.addEventListener('click', () => {
                 currentQuestionIndex++;
                 nextButton.classList.add('hide');
                 showQuestion(questions[currentQuestionIndex]);
             });
+
             restartButton.addEventListener('click', () => {
                 coverContainer.classList.remove('hide');
                 quizContainer.classList.add('hide');
                 startGame();
             });
+
             startGame();
         }
+
         const questions1 = [
             // Quiz 1 questions here
         ];
+
         const questions2 = [
             // Quiz 2 questions here
         ];
+
         initializeQuiz('cover-container-1', 'start-btn-1', 'quiz-container-1', 'question-container-1', 'question-1', 'answer-buttons-1', 'next-btn-1', 'result-container-1', 'result-1', 'restart-btn-1', questions1);
         initializeQuiz('cover-container-2', 'start-btn-2', 'quiz-container-2', 'question-container-2', 'question-2', 'answer-buttons-2', 'next-btn-2', 'result-container-2', 'result-2', 'restart-btn-2', questions2);
     </script>
