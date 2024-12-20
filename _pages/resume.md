@@ -21,6 +21,15 @@
       - Social Media Coordinator of Iranian Student Union
 
 # Experience
+- **Graduate Intern**
+ - *Institution:* LA Metro Spatial Analysis and Research Department
+ - *Year:* 2024-present
+ - *Description:* 
+    - Conducting spatial analysis using ArcGIS pro and Excel for Metro’s Short and Long Range Development plans 
+    - Supporting the Research team in with data processing and GIS mapping
+    - Preparing presentations on research findings building on knowledge of scientific method
+    - Performing geospatial data cleaning and quality control, ensuring data accuracy and consistency which reduced errors in final reports
+    - Troubleshooting errors to gain an in depth understanding of data processing
 - **Tutor**
   - *Institution:* Study Hut
   - *Year:* 2023-2024
