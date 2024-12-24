@@ -22,9 +22,9 @@
 
 # Experience
 - **Graduate Intern**
- - *Institution:* LA Metro Spatial Analysis and Research Department
- - *Year:* 2024-present
- - *Description:* 
+- *Institution:* LA Metro Spatial Analysis and Research Department
+- *Year:* 2024-present
+- *Description:* 
     - Conducting spatial analysis using ArcGIS pro and Excel for Metro’s Short and Long Range Development plans 
     - Supporting the Research team in with data processing and GIS mapping
     - Preparing presentations on research findings building on knowledge of scientific method
