@@ -1,7 +1,7 @@
 # General Information
 - **Full Name:** Leila Ghazvini
 - **Location:** Redondo Beach, CA
-- **Email:** leilaghazvini142@gmail.com
+- **Email:** [leilaghazvini142@gmail.com](mailto:leilaghazvini142@gmail.com)
 
 # Education
 - **Masters of Urban Planning**
@@ -22,19 +22,19 @@
 
 # Experience
 - **Graduate Intern**
-- *Institution:* LA Metro Spatial Analysis and Research Department
-- *Year:* 2024-present
-- *Description:* 
-    - Conducting spatial analysis using ArcGIS pro and Excel for Metro’s Short and Long Range Development plans 
-    - Supporting the Research team in with data processing and GIS mapping
-    - Preparing presentations on research findings building on knowledge of scientific method
-    - Performing geospatial data cleaning and quality control, ensuring data accuracy and consistency which reduced errors in final reports
-    - Troubleshooting errors to gain an in depth understanding of data processing
+  - *Institution:* LA Metro Spatial Analysis and Research Department
+  - *Year:* 2024-present
+  - *Description:* 
+    - Conducting spatial analysis using ArcGIS Pro and Excel for Metro’s Short and Long Range Development plans 
+    - Supporting the Research team with data processing and GIS mapping
+    - Preparing presentations on research findings, building on knowledge of the scientific method
+    - Performing geospatial data cleaning and quality control, ensuring data accuracy and consistency, which reduced errors in final reports
+    - Troubleshooting errors to gain an in-depth understanding of data processing
 - **Tutor**
   - *Institution:* Study Hut
   - *Year:* 2023-2024
   - *Description:* 
-    - Successfully tutored 50+ students in a variety of subjects including Algebra, Geometry, Biology, and Chemistry, English, History
+    - Successfully tutored 50+ students in a variety of subjects including Algebra, Geometry, Biology, Chemistry, English, and History
     - Provided individualized and engaged instruction for all students
     - Facilitated clear communication with parents of students
 - **Office Assistant**
@@ -66,7 +66,7 @@
   - *Year:* 2021
   - *Description:* 
     - Performed data entry with Microsoft Excel, Google Sheets, and Labdaq
-    - Completed administrative work including filing, printing, etc. to organize patient files
+    - Completed administrative work including filing, printing, etc., to organize patient files
     - Assisted customers at the front desk with medical test administrative work
     - Distributed test results to patients and input patient information for 300+ patients, facilitating their medical care
     - Worked with a team of 10+ doctors and nurses to improve coordination between lab and patient outreach 
@@ -77,7 +77,7 @@
   - *Description:* GIS Final Research Project comparing water and air quality with average income in Los Angeles County
 - **Cowell Coffee Shop: Turning Food Insecurity Into Food Independence**
   - *Year:* 2023
-  - *Description:* Research Project Presented at UCSC Environmental Studies Department Research Symposium highlighting the impact the Cowell Coffee shop Co-op has on the UCSC campus and how it combats food insecurity among college students
+  - *Description:* Research Project Presented at UCSC Environmental Studies Department Research Symposium highlighting the impact the Cowell Coffee Shop Co-op has on the UCSC campus and how it combats food insecurity among college students
 
 # Honors and Awards
 - **2023**
@@ -93,14 +93,15 @@
 - **Software**
   - *Items:*
     - ArcGIS
-    - Microsoft (Excel, Powerpoint, Access)
+    - Microsoft (Excel, PowerPoint, Access)
     - Google Sheets and Slides
     - WCMS
     - JMP
 - **Languages**
   - *Items:*
     - English (Native)
-    - Farsi (conversational)
+    - Farsi (Conversational)
 
 # Other Interests
 - **Hobbies:** Running, Going to the beach, Hiking
+
