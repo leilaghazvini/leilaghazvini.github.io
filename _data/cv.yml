@@ -33,15 +33,15 @@
 - title: Experience
   type: time_table
   contents:
-  - title: Graduate Intern
+    - title: Graduate Intern
       institution: LA Metro Spatial Analysis and Research Department
       year: "2024-Present"
       description:
-        - Conducted spatial analysis using ArcGIS pro and Excel for Metro’s Short and Long Range Development plans
-        - Supported the Research team in with data processing and GIS mapping
-        - Prepared presentation on research findings building on knowledge of scientific method 
-        - Conducted hotspot analysis and spatial clustering to identify key areas of concern leading to targeted interventions
-        - Performed geospatial data cleaning and quality control, ensuring data accuracy and consistency which reducing errors in final reports significantly.
+        - Conducting spatial analysis using ArcGIS pro and Excel for Metro’s Short and Long Range Development plans 
+        - Collaborating with the Research team using data processing and GIS mapping, informing decision making and project planning
+        - Preparing presentations on research findings, applying a strong foundation in the scientific method to communicate insights effectively 
+        - Performing geospatial data cleaning and quality control, ensuring data accuracy and consistency which reduced errors in final reports
+        - Troubleshooting data processing errors, improving overall analysis efficiency
     - title: Tutor
       institution: Study Hut
       year: "2023-2024"
