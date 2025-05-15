@@ -9,7 +9,7 @@
       value: leilaghazvini142@gmail.com
     - name: Linkedin
       value: Leila Ghazvini
-      
+
 - title: Education
   type: time_table
   contents:
@@ -17,7 +17,7 @@
       institution: University of Southern California
       year: 2026
       description:
-        - concentration in Planning for Climate Change and Sustainability
+        - Concentration in Planning for Climate Change and Sustainability
         - Dean’s Merit Scholarship, James Irvine California Scholarship
     - title: Bachelors of Arts
       institution: University of California, Santa Cruz
@@ -25,73 +25,78 @@
       description:
         - Environmental Studies with a concentration in Geographic Information Systems
         - Dean’s Honors List, Cum Laude distinction (3.9 GPA)
-        - title: Leadership
-          contents:
-            - Vice President of Planned Parenthood Generation Action
-            - Social Media Coordinator of Iranian Student Union
-            
+
+- title: Leadership
+  type: nested_list
+  contents:
+    - title: Planned Parenthood Generation Action
+      items:
+        - Vice President
+    - title: Iranian Student Union
+      items:
+        - Social Media Coordinator
+
 - title: Experience
   type: time_table
   contents:
     - title: Graduate Intern
       institution: LA Metro Spatial Analysis and Research Department
-      year: "2024-Present"
+      year: "2024–Present"
       description:
-        - Conducting spatial analysis using ArcGIS pro and Excel for Metro’s Short and Long Range Development plans 
-        - Collaborating with the Research team using data processing and GIS mapping, informing decision making and project planning
-        - Preparing presentations on research findings, applying a strong foundation in the scientific method to communicate insights effectively 
-        - Performing geospatial data cleaning and quality control, ensuring data accuracy and consistency which reduced errors in final reports
-        - Troubleshooting data processing errors, improving overall analysis efficiency
+        - Conducting spatial analysis using ArcGIS Pro and Excel for Metro’s Short and Long Range Development plans 
+        - Collaborating with the Research team using data processing and GIS mapping to inform decision-making
+        - Preparing presentations on research findings using scientific communication methods
+        - Performing geospatial data cleaning and quality control, reducing errors in final reports
+        - Troubleshooting data processing errors to improve analysis efficiency
     - title: Tutor
       institution: Study Hut
-      year: "2023-2024"
+      year: "2023–2024"
       description:
-        - Successfully tutored 50+ students in a variety of subjects including Algebra, Geometry, Biology, and Chemistry, English, History improving the understanding of student’s overall knowledge of the subject
-        - Provided individualized and engaged instruction for all students
-        - Facilitated clear communication with parents of students resulting in enhanced parental involvement 
+        - Tutored 50+ students in Algebra, Geometry, Biology, Chemistry, English, and History
+        - Provided individualized instruction
+        - Communicated with parents to increase involvement
     - title: Office Assistant
       institution: UCSC Environmental Studies Internship Office 
-      year: "2022-2023"
+      year: "2022–2023"
       description:
-        - Assisted with website development and design, streamlining the internship application process
-        - Executed administrative work for the internship course, helping the program run smoothly
-        - Communicated with 30+ staff members and 100+ students, refining the internship administrative process
-        - Performed data entry with Google Sheets and organized student files
-        - Connected students with internships that fit their interests, assisting them with the enrollment process
-        - Completed organizational work including filing and printing etc. increasing office efficiency     
+        - Assisted with website development and streamlining application processes
+        - Executed admin tasks for internship courses
+        - Communicated with 30+ staff and 100+ students
+        - Performed data entry and organized student files
+        - Connected students with internships and guided enrollment
+        - Improved office efficiency with filing and organization
     - title: Intern
-      institution: UCSC Cowell Coffee Shop Co op
+      institution: UCSC Cowell Coffee Shop Co-op
       year: 2023
       description:
-        - Prepared organic meals made from locally sourced ingredients for hundreds of students combating food insecurity on campus 
-        - Used kitchen skills to learn and teach others how to make culturally relevant food to promote food independence 
-        - Maintained a positive attitude in a team centered environment increasing productivity       
+        - Prepared organic, locally sourced meals for students facing food insecurity
+        - Promoted food independence with culturally relevant meals
+        - Maintained team productivity with positive collaboration
     - title: DRC NoteTaker
       institution: UCSC Disability Resource Center
       year: 2023
       description:
-        - Assisted disadvantaged students with disability accommodations, helping bridge the gap in education
-        - Watched and summarized lectures to assist students with their learning in each course
-        - Organize and condense notes for each course into an easy to comprehend format enhancing efficiency     
+        - Assisted students with accommodations through lecture notes
+        - Organized notes into digestible formats to enhance learning
     - title: Administrative Clerk
       institution: Vitae Diagnostics
       year: 2021
       description:
-        - Performed patient data entry with Microsoft Excel, Google Sheets, and Labdaq optimizing patient medical and billing records
-        - Completed administrative work including filing, printing, etc. in order to organize patient files
-        - Assisted customers at the front desk with medical test administrative work providing support to medical professionals
-        - Distributed test results to patients and input patient information for 300+ patients which assisted in facilitating their medical care
-        - Worked with a team of 10+ doctors and nurses to help improve coordination between lab and patient outreach 
-        
+        - Entered patient data in Excel, Sheets, and Labdaq
+        - Handled administrative and front desk support
+        - Distributed results and organized files for 300+ patients
+        - Collaborated with 10+ staff to improve coordination
+
 - title: Projects
   type: time_table
   contents:
     - title: Comparing Air and Water Quality with Average Income in Los Angeles County
       year: 2023
-      description: GIS Final Research Project comparing water and air quality with average income in Los Angeles County
-    - title: Cowell Coffee Shop Turning Food Insecurity Into Food Independence
+      description: GIS final project analyzing water and air quality in relation to average income in LA County
+    - title: Cowell Coffee Shop: Turning Food Insecurity Into Food Independence
       year: 2023
-      description: Research Project Presented at UCSC Environmental Studies Department Research Symposium highlighting the impact the Cowell Coffee shop Co op has on the UCSC campus and how it combats food insecurity among college students
+      description: Research presented at UCSC Symposium on the impact of Cowell Coffee Shop Co-op combating student food insecurity
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -103,7 +108,7 @@
       items:
         - Dean’s Merit Scholarship
         - James Irvine California Scholarship
-        
+
 - title: Skills
   type: nested_list
   contents:
@@ -112,14 +117,14 @@
         - ArcGIS  
     - title: Data Entry
       items:  
-        - Microsoft (Excel, Powerpoint, Access)
+        - Microsoft (Excel, PowerPoint, Access)
         - Google Sheets and Slides
     - title: Website Design and Development
       items:  
-        - Github
+        - GitHub
         - WCMS
         - Python
     - title: Languages
       items:
         - English (Native)
-        - Farsi (conversational)
+        - Farsi (Conversational)
